@@ -53,14 +53,13 @@ summary:
     <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="assets/images/HA1.png" alt="" /></p>
-<ol>
+    <img src="assets/images/HA1.jpg" alt="" />
   <li>
     <p>Document your work and email to your instructor</p>
     </li>
     <li>
         <p>Access your alpine VM via ssh or locally via console.</p>
-<img src="1.png" alt="" />
+<img src="assets/images/1.png" alt="" />
   </li>
   <li>
     <p>Install bash and vim with apk add bash and apk add vim.</p>
