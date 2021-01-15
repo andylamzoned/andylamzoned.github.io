@@ -97,16 +97,4 @@ summary:
     <div class="footer-bottom">
         &copy; jdlamzon-tip.github.io | Designed by John David Lamzon
         </div>
-    <table class="table-footer-main">
-    <tr>
-    <td class="footer-head" colspan="3">SYSAD2 FINAL PROJECT
-    </td>
-    </tr>
-    <tr>
-    <td class="footer=cell">SYSAD2 FINAL PROJECT<br>
-qjdalamzon@tip.edu.ph</td>
-    <td class="footer=cell">eacena-tip</td>
-    <td class="footer=cell">Contains all the hands-on activity,quiz, and major exam in System Adminitration 2 course.</td>
-    </tr>
-    </table>
 </div>  
