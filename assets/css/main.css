@@ -167,35 +167,28 @@ ul {
 							margin-left: -0.5rem;
 						}
 
-.ghost
-            {
-                /* position centered */
-               display:inline-block;
-                position: relative;
-                top: 50%;
-                left:50%;
-                -webkit-transform: translateX(-50%) translateY(-50%);
-                -ms-transform: translateX(-50%) translateY(-50%);
-                transform: translateX(-50%) translateY(-50%);
-                /* text styles */
-                font-family: Tahoma, Verdana, Segoe, sans-serif;
-                font-size: 3em;
-                letter-spacing: 0.1em;
-                color:#ffffff;
-                /* modify text */
-                text-decoration:none;
-                text-transform:uppercase;
-                text-rendering:optimizeLegibility;
-                /* add a border */
-                border:0.15em solid #fff;
-                padding:0.4em 0.6em;
-                /* animate the change */
-                -webkit-transition: color 300ms, background 500ms, border-color 700ms;
-                transition: color 300ms, background 500ms, border-color 700ms;
-            }
-            .ghost:hover
-            {
-                background:#91f21b;
-                border-color:#91f21b;
-                color:#545e7a;
-            }
+body {
+  background: #eee;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ghost-button {
+    color: #009688;
+    background: #fff;
+    border: 1px solid #009688;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+}
+
+.ghost-button:hover, .ghost-button:active {
+  color:#fff;
+  background:#009688;
+}
