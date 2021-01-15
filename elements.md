@@ -26,7 +26,8 @@ summary:
     <![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 
  </head>
  <body>
@@ -87,11 +88,16 @@ summary:
                 </article>
             </section>
     </div>
-
  <footer id="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section about"></div>
+    </div>
+    <div class="footer-bottom">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-        </footer>
-</body>
+        </div>
+</div> 
 
 
 
