@@ -29,16 +29,6 @@ summary:
 
   </head>
   <body class="is-preload">
-  <div class="footer">
-    <div class="footer-content">
-        <div class="footer-section about"></div>
-        <div class="footer-section links"></div>
-        <div class="footer-section about"></div>
-    </div>
-    <div class="footer-bottom">
-        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-        </div>
-</div> 
     <div class="wrapper">
         <div id="title">
           <br>
@@ -64,7 +54,6 @@ summary:
   </header>
   <div class="wrapper">
     <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="700" height="300"></a>
-    </div>
     <br>
     <ol>
     <li>
@@ -97,5 +86,17 @@ summary:
     <img src="assets/images/6.png" alt="" />
     </li>
     </ol>
+</div>
+ <div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section about"></div>
+    </div>
+    <div class="footer-bottom">
+        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+        </div>
+</div> 
+
 
 
