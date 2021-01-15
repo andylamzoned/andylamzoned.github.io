@@ -22,6 +22,27 @@
 }
 
 
+/* FOOTER */
+.footer {
+	background: #33333A;
+	color: #DAB72E;
+	height: 200px;
+	position: relative;
+}
+
+.footer .footer-bottom {
+	background: #DAB72E;
+	color: #F0E4CA;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;

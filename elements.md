@@ -8,7 +8,6 @@ tags: []
 summary: 
 ---
 
-<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
@@ -96,7 +95,6 @@ summary:
     </div>
     <div class="footer-bottom">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-        </div>
 </div> 
 
 
