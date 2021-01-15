@@ -57,10 +57,10 @@ summary:
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="assets/images/HA1.jpg" /></p>
+    <p><img src="assets/images/HA1.jpg" alt="" /></p>
 <ol>
   <li>
-    <p>Document your work and email to your instructor.b</p>
+    <p>Document your work and email to your instructor</p>
     <p>Access your alpine VM via ssh or locally via console.</p>
 <img src="1.png" alt="" />
   </li>
