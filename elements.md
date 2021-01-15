@@ -48,20 +48,18 @@ summary:
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>   
             <article class="post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
-
+<br>
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">PRELIM: Hands-on Activity 2</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2021-01-12T00:00:00+00:00" itemprop="datePublished">Jan 12, 2021
-      </time></p>
+    <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
-
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="assets/images/HA1.jpg" alt="" /></p>
+    <p><img src="assets/images/HA1.png" alt="" /></p>
 <ol>
   <li>
     <p>Document your work and email to your instructor</p>
-    <p>Access your alpine VM via ssh or locally via console.</p>
+    </li>
+    <li>
+        <p>Access your alpine VM via ssh or locally via console.</p>
 <img src="1.png" alt="" />
   </li>
   <li>
