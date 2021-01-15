@@ -87,7 +87,7 @@ summary:
             </section>
     </div>
 </body>
-</html>
+<body>
  <div class="footer">
     <div class="footer-content">
         <div class="footer-section about"></div>
@@ -98,6 +98,7 @@ summary:
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
         </div>
 </div> 
+</body>
 
 
 
