@@ -1,12 +1,4 @@
----
-layout: post
-title: 
-date: 2021-01-15 19:48
-category: 
-author: 
-tags: []
-summary: 
----
+
 
 
 html, body, div, span, applet, object,
@@ -20,12 +12,12 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+}
+
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -45,7 +37,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
