@@ -53,7 +53,7 @@ summary:
     <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
   <div class="wrapper">
-    <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" /></a>
+    <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" / width="700" height="300"></a>
     <ol>
   <li>
     <p>Document your work and email to your instructor</p>
