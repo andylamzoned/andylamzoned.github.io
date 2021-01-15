@@ -54,97 +54,37 @@ summary:
   </header>
   <div class="wrapper">
     <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="700" height="300"></a>
+    <br>
     <ol>
-  <li>
+    <li>
     <p>Document your work and email to your instructor</p>
     </li>
     <li>
-        <p>Access your alpine VM via ssh or locally via console.</p>
-<img src="assets/images/1.png" alt="" />
-  </li>
-  <li>
+    <p>Access your alpine VM via ssh or locally via console.</p>
+    <img src="assets/images/1.png" alt="" />
+    </li>
+    <li>
     <p>Install bash and vim with apk add bash and apk add vim.</p>
-<img src="assets/images/2.png" alt="" />
-  </li>
-  <li>
-    <p>In your Alpine VM clone the repository you just created in my case this is my url <a href="https://github.com/ajcanlas-tip/ajcanlas-tip.git">https://github.com/ajcanlas-tip/ajcanlas-tip.git</a><br>
-<img src="https://user-images.githubusercontent.com/75419236/104206321-54bef780-546a-11eb-9a73-a39f8a6b7f30.png" alt="HA2 3"></p>
-  </li>
-  <li>
-    <p>Create a profile with Markdown this is a cheat sheat (Links to an external site.) in a “README.md” file</p>
-    <p>README.md should have the following:</p>
-    <ol>
-      <li>
-        <p>Your full name</p>
-      </li>
-      <li>
-        <p>Year Level</p>
-      </li>
-      <li>
-        <p>Interests</p>
-      </li>
-      <li>
-        <p>email address</p>
-      </li>
-      <li>
-        <p>Computer specs (CPU/Ram size/Disk type and size)</p>
-      </li>
+    <img src="assets/images/2.png" alt="" />
+    </li>
+    <li>
+    <p>Install Git using apk add git</p>
+    <img src="assets/images/3.png" alt="" />
+    </li>
+    <li>
+    <p>Create a directory named activity1</p>
+    <img src="assets/images/4.png" alt="" />
+    </li>
+    <li>
+    <p>Initialize Git using git init)</p>
+    <img src="assets/images/4.png" alt="" />
+    </li>
+    <p>To check the status of the repository use git status and to add a file in the repository history use git add (to simulate you can create a file first)</p>
+    <img src="assets/images/5.png" alt="" />
+    <li>
+    <p>To commit the changes in the repository use git commit -m "Your commit message"</p>
+    <img src="assets/images/6.png" alt="" />
+    </li>
     </ol>
-  </li>
-  <li>
-    <p>To add it to your profile add the README.md file commit it then push it in the repository (to push a repository use git push -u origin master)</p>
-    <p>Commands:</p>
-    <p><code class="language-plaintext highlighter-rouge">git add README.md</code></p>
-    <p><code class="language-plaintext highlighter-rouge">git commit -m "First commit"</code></p>
-    <p><code class="language-plaintext highlighter-rouge">git push -u origin master</code>
-<img src="https://user-images.githubusercontent.com/75419236/104207112-31487c80-546b-11eb-86f2-bfeec08efa09.png" alt="HA2 4"></p>
-  </li>
-  <li>Fork this repository <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
-<img src="https://user-images.githubusercontent.com/75419236/104208717-c3e91b80-546b-11eb-97ac-cb234c7385bd.png" alt="HA 2 5"></li>
-  <li>Clone your newly forked repository with git clone <em>https://github.com/&lt; your username &gt;/sysad2-12021.git</em> and  go in the repository directory.
-<img src="https://user-images.githubusercontent.com/75419236/104208705-c186c180-546b-11eb-94c0-0ea2436c9fa5.png" alt="HA 2 6"></li>
-  <li>Make a new branch named “activity2” using git branch activity2 and <em>git checkout activity2</em>
-<img src="https://user-images.githubusercontent.com/75419236/104208844-f135c980-546b-11eb-9ce3-3c5ae160c66e.png" alt="HA 2 7 "></li>
-  <li>Make a new new remote upstream with git 
-<img src="https://user-images.githubusercontent.com/75419236/104208847-f266f680-546b-11eb-94e0-5ab3c2042175.png" alt="HA 2 8"></li>
-  <li>
-    <p>Create your directory with your username, create a directory named “activity2” add the previous README.md file as HA2.md</p>
-
-<p>Command used:</p>
-
-<ol>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">mkdir &lt;your username&gt;</code></p>
-    </li>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">mkdir activity2</code></p>
-    </li>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">cp &lt;path of your README.md file&gt; HA2.md</code>
-<img src="https://user-images.githubusercontent.com/75419236/104209195-5b4e6e80-546c-11eb-9f29-9fcbb461e76f.png" alt="HA 2 9"></p>
-      </li>
-    </ol>
-  </li>
-  <li>
-    <p>add,commit and push it to your activity2 branch</p>
-
-<p>Commands used:</p>
-
-<ol>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">git add HA2.md</code></p>
-    </li>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">git commit -s -n "activity2"</code></p>
-    </li>
-    <li>
-    <p><code class="language-plaintext highlighter-rouge">git push -u origin upstream</code>
-<img src="https://user-images.githubusercontent.com/75419236/104209878-31497c00-546d-11eb-91e4-64d39116d761.png" alt="HA 2 10"></p>
-      </li>
-    </ol>
-  </li>
-  <li>Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git] (https://github.com/ajcanlas-tip/sysad2-12021.git) and activity2 branch of your forked repository
-<img src="https://user-images.githubusercontent.com/75419236/104209877-30b0e580-546d-11eb-9d02-16967b137009.png" alt="HA 2 11"><br>
- This will be recorded based on your PR.</li>
 
     
