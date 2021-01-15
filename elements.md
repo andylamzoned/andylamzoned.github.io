@@ -54,6 +54,7 @@ summary:
   </header>
   <div class="wrapper">
     <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="700" height="300"></a>
+    </div>
     <br>
     <ol>
     <li>
