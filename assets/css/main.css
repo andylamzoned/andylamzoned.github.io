@@ -11,7 +11,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video, button {
+section, summary, time, mark, audio, video, .button, {
 margin: 0;
 	padding: 0;
 	border: 0;
@@ -166,3 +166,20 @@ ul {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5rem;
 						}
+.button {
+display:inline-block;
+color: #fff;
+border: 2px solid #fff;
+text-align: center;
+width: 250px;
+padding: 10px;
+text-decoration: none;
+outline; none;
+transition: background-color 0.2s ease-out, color0.2s ease-out;
+}
+.button:hover,
+.button:active {
+background-color: #fff;
+color: #000229;
+transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
