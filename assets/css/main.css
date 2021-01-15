@@ -154,7 +154,7 @@ ul {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5rem;
                         }
-button.btn {
+.btn {
   -webkit-border-radius: 24;
   -moz-border-radius: 24;
   border-radius: 24px;
@@ -164,8 +164,7 @@ button.btn {
   border: solid #F0E4CA 2px;
   text-decoration: none;
 }
-
-button.btn:hover {
+.btn:hover {
   background: #DAB72E;
   text-decoration: none;
 }}
