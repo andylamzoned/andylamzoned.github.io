@@ -29,6 +29,16 @@ summary:
 
   </head>
   <body class="is-preload">
+  <div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section about"></div>
+    </div>
+    <div class="footer-bottom">
+        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+        </div>
+</div> 
     <div class="wrapper">
         <div id="title">
           <br>
@@ -88,13 +98,4 @@ summary:
     </li>
     </ol>
 
-<div class="footer">
-    <div class="footer-content">
-        <div class="footer-section about"></div>
-        <div class="footer-section links"></div>
-        <div class="footer-section about"></div>
-    </div>
-    <div class="footer-bottom">
-        &copy; jdlamzon-tip.github.io | Designed by John David Lamzon
-        </div>
-</div>  
+
