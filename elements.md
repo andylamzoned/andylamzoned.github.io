@@ -87,6 +87,7 @@ summary:
             </section>
     </div>
 </body>
+</html>
  <div class="footer">
     <div class="footer-content">
         <div class="footer-section about"></div>
