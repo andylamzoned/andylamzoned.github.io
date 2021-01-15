@@ -91,12 +91,14 @@ summary:
 <div class="footer-main">
     <table class="table-footer-main">
     <tr>
-    <td>test
+    <td class="footer-head" colspan="3">SYSAD2 FINAL PROJECT
     </td>
     </tr>
     <tr>
-    <td>A</td>
-    <td>B</td>
-    <td>C</td>
+    <td class="footer=cell">SYSAD2 FINAL PROJECT<br>
+qelacena@tip.edu.phA</td>
+    <td class="footer=cell">eacena-tip</td>
+    <td class="footer=cell">Contains all the hands-on activity,quiz, and major exam in System Adminitration 2 course.</td>
     </tr>
+    </table>
 </div>  
