@@ -169,10 +169,6 @@ ul {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5rem;
                         }
-a.btn {
-
+p .ghost {
+    border: 1px #ffffff solid
 }
-a.btn:hover {
-  background: #DAB72E;
-  text-decoration: none;
-}}
