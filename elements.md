@@ -52,7 +52,7 @@ summary:
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
-  <div class="wrapper">
+  <section class="posts">
     <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="700" height="300"></a>
     <br>
     <ol>
@@ -86,7 +86,7 @@ summary:
     <img src="assets/images/6.png" alt="" />
     </li>
     </ol>
-</div>
+</section>
  <div class="footer">
     <div class="footer-content">
         <div class="footer-section about"></div>
