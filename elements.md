@@ -52,7 +52,7 @@ summary:
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="wrapper">
     <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" /></a>
     <ol>
   <li>
@@ -60,7 +60,6 @@ summary:
     </li>
     <li>
         <p>Access your alpine VM via ssh or locally via console.</p>
-        </ol>
 <img src="assets/images/1.png" alt="" />
   </li>
   <li>
@@ -147,5 +146,5 @@ summary:
   <li>Request a pull request for the master branch in [https://github.com/ajcanlas-tip/sysad2-12021.git] (https://github.com/ajcanlas-tip/sysad2-12021.git) and activity2 branch of your forked repository
 <img src="https://user-images.githubusercontent.com/75419236/104209877-30b0e580-546d-11eb-9d02-16967b137009.png" alt="HA 2 11"><br>
  This will be recorded based on your PR.</li>
-    </div>
+
     
