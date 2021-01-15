@@ -88,27 +88,15 @@ summary:
     </li>
     </ol>
 
-<footer class="site-footer h-card">
-<data class="u-url" href="/eacena-tip.github.io/"></data>
-
-<div class="wrapper">
-
-<h2 class="footer-heading">My Profolio</h2>
-
-<div class="footer-col-wrapper">
-    <div class="footer-col footer-col-1">
-    <ul class="contact-list">
-        <li class="p-name">Managing Enterprise Servers</li><li><a class="u-email" href="mailto:qjdalamzon@tip.edu.ph">qjdalamzon@tip.edu.ph</a></li></ul>
-    </div>
-
-<div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jdlamzon-tip"><svg class="svg-icon"><use xlink:href="/eacena-tip.github.io/assets/minima-social-icons.svg#github"></use></svg> <span class="username">eacena-tip</span></a></li></ul>
-</div>
-
-<div class="footer-col footer-col-3">
-<p>Contains all the hands-on activity,quiz, and major exam in System Adminitration 2 course.</p>
-</div>
-</div>
-
-</div>
-
-</footer>   
+<div class="footer-main">
+    <table class="table-footer-main">
+    <tr>
+    <td>test
+    </td>
+    </tr>
+    <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    </tr>
+</div>  
