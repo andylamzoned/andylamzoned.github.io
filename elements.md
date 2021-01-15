@@ -57,19 +57,16 @@ summary:
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://user-images.githubusercontent.com/75419236/104220518-95267180-547a-11eb-98d4-01cfea075573.png" alt="r (33)"></p>
+    <p><img src="assets/images/HA1.jpg" /></p>
 <ol>
   <li>
-    <p>Create an account in Github</p>
-
-    <p>Username should be your given initials and last name followed by -tip (e.g.  ajcanlas-tip)
-  Use your TIP email address for this (if you have already linked your email with GitHub create a separate one)
-  Verify your account in your email in GitHub,
-<img src="https://user-images.githubusercontent.com/75419236/104205490-6eac0a80-5469-11eb-9f03-3756e2c481a8.png" alt="activity2-1"></p>
+    <p>Document your work and email to your instructor.b</p>
+    <p>Access your alpine VM via ssh or locally via console.</p>
+<img src="1.png" alt="" />
   </li>
   <li>
-    <p>Create a repository with your username (in my case it is ajcanlas-tip) without any files, and it should be public.
-<img src="https://user-images.githubusercontent.com/75419236/104205960-f5f97e00-5469-11eb-891b-3eb7fae735d3.png" alt="HA2 2"></p>
+    <p>Install bash and vim with apk add bash and apk add vim.</p>
+<img src="assets/images/2.png" alt="" />
   </li>
   <li>
     <p>In your Alpine VM clone the repository you just created in my case this is my url <a href="https://github.com/ajcanlas-tip/ajcanlas-tip.git">https://github.com/ajcanlas-tip/ajcanlas-tip.git</a><br>
