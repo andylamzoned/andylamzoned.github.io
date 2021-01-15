@@ -53,12 +53,14 @@ summary:
     <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
   </header>
   <div class="post-content e-content" itemprop="articleBody">
-    <img src="assets/images/HA1.jpg" alt="" />
+    <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" /></a>
+    <ol>
   <li>
     <p>Document your work and email to your instructor</p>
     </li>
     <li>
         <p>Access your alpine VM via ssh or locally via console.</p>
+        </ol>
 <img src="assets/images/1.png" alt="" />
   </li>
   <li>
