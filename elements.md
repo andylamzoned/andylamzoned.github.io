@@ -8,6 +8,7 @@ tags: []
 summary: 
 ---
 
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
@@ -25,10 +26,11 @@ summary:
     <![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 
-  </head>
-  <body>
+ </head>
+ <body>
     <div class="wrapper">
         <div id="title">
           <br>
@@ -86,18 +88,9 @@ summary:
                 </article>
             </section>
     </div>
-</body>
-</body>
- <div class="footer">
-    <div class="footer-content">
-        <div class="footer-section about"></div>
-        <div class="footer-section links"></div>
-        <div class="footer-section about"></div>
-    </div>
-    <div class="footer-bottom">
+ <footer id="footer">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-        </div>
-</div> 
+        </footer>
 
 
 
