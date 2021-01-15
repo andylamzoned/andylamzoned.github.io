@@ -88,7 +88,15 @@ summary:
     </li>
     </ol>
 
-<div class="footer-main">
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section about"></div>
+    </div>
+    <div class="footer-bottom">
+        &copy; jdlamzon-tip.github.io | Designed by John David Lamzon
+        </div>
     <table class="table-footer-main">
     <tr>
     <td class="footer-head" colspan="3">SYSAD2 FINAL PROJECT
@@ -96,7 +104,7 @@ summary:
     </tr>
     <tr>
     <td class="footer=cell">SYSAD2 FINAL PROJECT<br>
-qelacena@tip.edu.phA</td>
+qjdalamzon@tip.edu.ph</td>
     <td class="footer=cell">eacena-tip</td>
     <td class="footer=cell">Contains all the hands-on activity,quiz, and major exam in System Adminitration 2 course.</td>
     </tr>
