@@ -28,9 +28,6 @@ summary:
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
- <footer id="footer">
-        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-        </footer>
  </head>
  <body>
     <div class="wrapper">
@@ -90,6 +87,10 @@ summary:
                 </article>
             </section>
     </div>
+
+ <footer id="footer">
+        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+        </footer>
 </body>
 
 
