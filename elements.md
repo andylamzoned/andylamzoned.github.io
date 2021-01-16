@@ -55,46 +55,48 @@ summary:
           <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="100%"></a>
           <section class="posts">
             <ol>
-            <li>
-            <p>Document your work and email to your instructor</p>
-            </li>
-            <li>
-            <p>Access your alpine VM via ssh or locally via console.</p>
-            <img src="assets/images/1.png" alt="" />
-            </li>
-            <li>
-            <p>Install bash and vim with apk add bash and apk add vim.</p>
-            <img src="assets/images/2.png" alt="" />
-            </li>
-            <li>
-            <p>Install Git using apk add git</p>
-            <img src="assets/images/3.png" alt="" />
-            </li>
-            <li>
-            <p>Create a directory named activity1</p>
-            <img src="assets/images/4.png" alt="" />
-            </li>
-            <li>
-            <p>Initialize Git using git init</p>
-            <img src="assets/images/4.png" alt="" />
-            </li>
-            <li>
-            <p>To check the status of the repository use git status and to add a file in the repository history use git add (to simulate you can create a file first)</p>
-            <img src="assets/images/5.png" alt="" />
-            </li>
-            <li>
-            <p>To commit the changes in the repository use git commit -m "Your commit message"</p>
-            <img src="assets/images/6.png" alt="" />
-            </li>
+              <li>
+                <p>Document your work and email to your instructor</p>
+              </li>
+              <li>
+                <p>Access your alpine VM via ssh or locally via console.</p>
+                  <img src="assets/images/1.png" alt="" />
+              </li>
+              <li>
+                <p>Install bash and vim with apk add bash and apk add vim.</p>
+                  <img src="assets/images/2.png" alt="" />
+              </li>
+              <li>
+                <p>Install Git using apk add git</p>
+                  <img src="assets/images/3.png" alt="" />
+              </li>
+              <li>
+                <p>Create a directory named activity1</p>
+                  <img src="assets/images/4.png" alt="" />
+              </li>
+              <li>
+                <p>Initialize Git using git init</p>
+                  <img src="assets/images/4.png" alt="" />
+              </li>
+              <li>
+                <p>To check the status of the repository use git status and to add a file in the repository history use git add (to simulate you can create a file first)</p>
+                  <img src="assets/images/5.png" alt="" />
+              </li>
+              <li>
+                <p>To commit the changes in the repository use git commit -m "Your commit message"</p>
+                  <img src="assets/images/6.png" alt="" />
+              </li>
             </ol>
           </section>
 				</article>
       </section>
-    <div class="footer">
-      <div class="footer-bottom">
-        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-      </div>
-    </div>  
+      <div class="footer">
+        <div class="footer-bottom">
+          &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+        </div>
+      </div> 
+    </div>
+  </body>
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
