@@ -86,8 +86,7 @@ summary:
           </ol>
         </article>
       </section>
-    </div>
-  </body>
+      </section>
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
