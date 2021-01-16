@@ -31,14 +31,14 @@ html, body {
 
 /* FOOTER */
 .footer {
-	background: #transparent;
+	background: #F0E4CA;
 	color: #DAB72E;
 	height: 100px;
 	position: relative;
 }
 
 .footer .footer-bottom {
-	background: #333333;
+	background: #DAB72E;
 	color: #F0E4CA;
 	height: 50px;
 	width: 100%;
