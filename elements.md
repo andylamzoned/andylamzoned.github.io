@@ -28,7 +28,7 @@ summary:
   </head>
 <body class="is-preload">
   <div class="wrapper">
-    <section class="posts">
+    <section>
       <div id="title">
         <br>
         <h1>Managing Enterprise Servers Portfolio</h1>
@@ -46,6 +46,8 @@ summary:
         <hr>
         <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
       </div>
+    </section>
+    <section class="posts">
       <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
       <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="100%"></a>
       <ol>
@@ -65,16 +67,16 @@ summary:
       &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
     </div>
   </div> 
-  {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-  {% endif %}
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
 
 
 
