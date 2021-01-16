@@ -88,6 +88,7 @@ summary:
         </article>
       </section>
     </div>
+  </body>
     <div class="footer">
       <div class="footer-bottom">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
@@ -103,8 +104,6 @@ summary:
         ga('send', 'pageview');
       </script>
     {% endif %}
-  </body>
-</html>
 
 
 
