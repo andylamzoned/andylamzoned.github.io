@@ -48,7 +48,6 @@ summary:
           <hr>
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
-      <section class="posts">
         <article>
           <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
           <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="100%"></a>
@@ -89,7 +88,6 @@ summary:
         </article>
       </section>
     </div>
-  </body>
     <div class="footer">
       <div class="footer-bottom">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon

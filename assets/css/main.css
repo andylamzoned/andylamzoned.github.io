@@ -33,13 +33,13 @@ html, body {
 .footer {
 	background: #F0E4CA;
 	color: #DAB72E;
-	height: 100px;
+	height: 50px;
 	position: relative;
 }
 
 .footer .footer-bottom {
 	background: #333333;
-	color: #F0E4CA;
+	color: #333333;
 	height: 50px;
 	width: 100%;
 	text-align: center;
