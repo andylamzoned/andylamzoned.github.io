@@ -74,11 +74,13 @@ summary:
           <img src="assets/images/4.png" alt="" />
           </li>
           <li>
-          <p>Initialize Git using git init)</p>
+          <p>Initialize Git using git init</p>
           <img src="assets/images/4.png" alt="" />
           </li>
+          <li>
           <p>To check the status of the repository use git status and to add a file in the repository history use git add (to simulate you can create a file first)</p>
           <img src="assets/images/5.png" alt="" />
+          </li>
           <li>
           <p>To commit the changes in the repository use git commit -m "Your commit message"</p>
           <img src="assets/images/6.png" alt="" />
