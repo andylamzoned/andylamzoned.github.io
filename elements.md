@@ -88,7 +88,6 @@ summary:
           </ol>
         </article>
       </section>
-      </section>
     </div>
     {% if site.google_analytics %}
       <script>
