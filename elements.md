@@ -8,6 +8,7 @@ tags: []
 summary: 
 ---
 
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -30,7 +31,7 @@ summary:
   </head>
   <body class="is-preload">
     <div class="wrapper">
-      <section class="posts">
+      <section>
         <div id="title">
           <br>
           <h1>Managing Enterprise Servers Portfolio</h1>
@@ -48,53 +49,34 @@ summary:
           <hr>
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
+      <section class="posts">
         <article>
-          <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
-          <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="100%"></a>
-          <section class="posts">
-            <ol>
-            <li>
-            <p>Document your work and email to your instructor</p>
-            </li>
-            <li>
-            <p>Access your alpine VM via ssh or locally via console.</p>
-            <img src="assets/images/1.png" alt="" />
-            </li>
-            <li>
-            <p>Install bash and vim with apk add bash and apk add vim.</p>
-            <img src="assets/images/2.png" alt="" />
-            </li>
-            <li>
-            <p>Install Git using apk add git</p>
-            <img src="assets/images/3.png" alt="" />
-            </li>
-            <li>
-            <p>Create a directory named activity1</p>
-            <img src="assets/images/4.png" alt="" />
-            </li>
-            <li>
-            <p>Initialize Git using git init</p>
-            <img src="assets/images/4.png" alt="" />
-            </li>
-            <li>
-            <p>To check the status of the repository use git status and to add a file in the repository history use git add (to simulate you can create a file first)</p>
-            <img src="assets/images/5.png" alt="" />
-            </li>
-            <li>
-            <p>To commit the changes in the repository use git commit -m "Your commit message"</p>
-            <img src="assets/images/6.png" alt="" />
-            </li>
-            </ol>
-          </section>
+          <header>
+            <span class="date">December 06, 2020</span>
+            <h2><a href="elements.html">Hands-on Activity 1: Install and configure your repository in Local Git</a></h2>
+          </header>
+          <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" /></a>
+          <p>Create a git repository locally and emphasize the use of Git in your local project in a CI/CD environment.</p>
+          <p align="center" class="ghost"><a href="elements.html">Read More</a></p>
         </article>
+        <br>
+        <article>
+          <header>
+            <span class="date">December 06, 2020</span>
+            <h2><a href="#">Hands-on Activity 1: Install and configure your repository in Local Git</a></h2>
+          </header>
+          <a href="elements.html" class="image fit"><img src="assets/images/1.png" alt="" /></a>
+          <p>Create a git repository locally and emphasize the use of Git in your local project in a CI/CD environment.</p>
+          <p align="center" class="ghost"><a href="elements.html">Read More</a></p>
+				</article>
       </section>
     </div>
     <div class="footer">
       <div class="footer-bottom">
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
       </div>
-    </div>
-  </body>
+    </div>  
+
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -105,9 +87,6 @@ summary:
         ga('send', 'pageview');
       </script>
     {% endif %}
-
-
-
 
 
 
