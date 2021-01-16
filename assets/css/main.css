@@ -31,15 +31,15 @@ html, body {
 
 /* FOOTER */
 .footer {
-	background: #F0E4CA;
+	background: #transparent;
 	color: #DAB72E;
-	height: 50px;
+	height: 100px;
 	position: relative;
 }
 
 .footer .footer-bottom {
 	background: #333333;
-	color: #333333;
+	color: #F0E4CA;
 	height: 50px;
 	width: 100%;
 	text-align: center;
