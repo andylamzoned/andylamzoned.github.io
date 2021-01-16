@@ -27,7 +27,7 @@
 .footer {
 	background: #F0E4CA;
 	color: #DAB72E;
-	height: 200px;
+	min-height: -100px;
 	position: relative;
 }
 
