@@ -64,7 +64,7 @@ summary:
             </ol>
         </article>
       </section>
-    <div class="footer-bottom">
+    <div class="footer-top">
       <p align="center">&copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon</p>
     </div>
     {% if site.google_analytics %}
