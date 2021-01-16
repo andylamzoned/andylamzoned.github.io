@@ -87,6 +87,7 @@ summary:
             <img src="assets/images/6.png" alt="" />
             </li>
             </ol>
+          </section>
 				</article>
       </section>
     <div class="footer">
