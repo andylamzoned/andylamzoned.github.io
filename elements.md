@@ -28,7 +28,7 @@ summary:
 
 
   </head>
-  <body class="is-preload">
+  <body>
     <div class="wrapper">
       <section>
         <div id="title">
