@@ -7,7 +7,7 @@ author:
 tags: []
 summary: 
 ---
-<p>hi</p>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -26,7 +26,8 @@ summary:
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
-  <body class="is-preload">
+<body class="is-preload">
+  <div class="wrapper">
     <section>
       <div id="title">
         <br>
@@ -60,21 +61,22 @@ summary:
         <li><p>To commit the changes in the repository use git commit -m "Your commit message"</p><img src="assets/images/6.png" alt="" /></li>
       </ol>
     </section>
-    <div class="footer">
-      <div class="footer-bottom">
-        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-      </div>
-    </div> 
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+  </div>
+  <div class="footer">
+    <div class="footer-bottom">
+      &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+    </div>
+  </div> 
+  {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+  {% endif %}
 
 
 
