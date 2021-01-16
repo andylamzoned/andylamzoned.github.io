@@ -105,6 +105,7 @@ summary:
         &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
       </div>
     </div>  
+  </body>
 
 
 
