@@ -26,28 +26,28 @@ summary:
     <![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
   </head>
   <body class="is-preload">
     <div class="wrapper">
-      <section>
-        <div id="title">
-          <br>
-          <h1>Managing Enterprise Servers Portfolio</h1>
-          <br>
-          <p>By: John David Lamzon</p>
-          <br>
-          <nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">PRELIM</a></li>
-							<li><a href="generic.html">MIDTERM</a></li>
-							<li><a href="elements.html">FINALS</a></li>
-					  </ul>
-          </nav>
-          <br>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-        </div>
-      </section>
+      <div id="title">
+        <br>
+        <h1>Managing Enterprise Servers Portfolio</h1>
+        <br>
+        <p>By: John David Lamzon</p>
+        <br>
+        <nav id="nav">
+          <ul class="links">
+            <li class="active"><a href="index.html">PRELIM</a></li>
+            <li><a href="generic.html">MIDTERM</a></li>
+            <li><a href="elements.html">FINALS</a></li>
+          </ul>
+        </nav>
+        <br>
+        <hr>
+        <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+      </div>
       <section class="posts">
         <h1 class="post-title p-name" itemprop="name headline">Prelim: Hands-on Activity 1</h1>
         <a href="elements.html" class="image fit"><img src="assets/images/HA1.jpg" alt="" width="100%"></a>
