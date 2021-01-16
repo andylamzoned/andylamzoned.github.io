@@ -33,14 +33,14 @@ html, body {
 .footer {
 	background: #F0E4CA;
 	color: #DAB72E;
-	height: 200px;
+	height: 100px;
 	position: relative;
 }
 
 .footer .footer-bottom {
-	background: #DAB72E;
+	background: #333333;
 	color: #F0E4CA;
-	height: 20px;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	position: absolute;
