@@ -8,7 +8,6 @@ tags: []
 summary: 
 ---
 
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -63,11 +62,11 @@ summary:
         </ol>
       </section>
     </div>
-  <div class="footer">
-    <div class="footer-bottom">
-      &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
-    </div>
-  </div> 
+    <div class="footer">
+      <div class="footer-bottom">
+        &copy; <a href="https://github.com/andylamzoned/andylamzoned.github.io">jdlamzon-tip.github.io</a> | Designed by John David Lamzon
+      </div>
+    </div> 
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
