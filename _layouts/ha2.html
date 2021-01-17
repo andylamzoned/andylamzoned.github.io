@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <div class="wrapper">
+      <section>
+        <div id="title">
+          <br>
+          <h1>Managing Enterprise Srvers Portfolio</h1>
+          <br>
+          <p>By: John David Lamzon</p>
+          <br>
+          <nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="generic.html">MIDTERM</a></li>
+							<li><a href="test.html">FINALS</a></li>
+              <div class="topnav-right">
+                <a class="pads" href="about.html">ABOUT</a>
+              </div>
+					  </ul>
+          </nav>
+          <br>
+          <hr>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+        </div>
+      </section>
+          <h2>Prelim: Hands-on Activity 2: Install and configure your repository in remote Git in GitHub</h2>
+          <img src="https://user-images.githubusercontent.com/75419236/104220518-95267180-547a-11eb-98d4-01cfea075573.png" alt="" width="100%" height="250"> <br><br>
+            <div class="postpic">
+            1. Create an account in Github <br>
+            Username should be your given initials and last name followed by -tip (e.g. ajcanlas-tip) Use your TIP email address for this (if you have already linked your email with GitHub create a separate one) Verify your account in your email in GitHub <img src="https://user-images.githubusercontent.com/75419236/104205490-6eac0a80-5469-11eb-9f03-3756e2c481a8.png" alt="" / width="100%"><br><br>
+            2. Create a repository with your username (in my case it is ajcanlas-tip) without any files, and it should be public. <img src="https://user-images.githubusercontent.com/75419236/104205960-f5f97e00-5469-11eb-891b-3eb7fae735d3.png" alt="" / width="100%"><br><br>
+            3. In your Alpine VM clone the repository you just created in my case this is my url <a href="https://github.com/ajcanlas-tip/ajcanlas-tip.git">https://github.com/ajcanlas-tip/ajcanlas-tip.git</a><img src="https://user-images.githubusercontent.com/75419236/104206321-54bef780-546a-11eb-9a73-a39f8a6b7f30.png" alt="" />
+            4. Create a profile with Markdown this is a cheat sheat (Links to an external site.) in a “README.md” file README.md should have the following:
+              <div class="ind">
+              1. Your full name:
+              2. Year Level:
+              3. Interest: 
+              4. Email Address:
+              5. Computer Specs (CPU/RAM/DISK type and size)
+              </div>
+            5. To add it to your profile add the README.md file commit it then push it in the repository (to push a repository use git push -u origin master)<br><br>
+            <strong>Commands:</strong>
+            <code text-align="left" class="highlight ind">
+              git add README.md
+              git commit -m "First commit"
+              git push -u origin master
+            </code>
+            <img src="https://user-images.githubusercontent.com/75419236/104207112-31487c80-546b-11eb-86f2-bfeec08efa09.png" alt="" />
+            6. Fork this repository <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a> <br><br>
+            <img src="https://user-images.githubusercontent.com/75419236/104208717-c3e91b80-546b-11eb-97ac-cb234c7385bd.png" alt="" / width="100%"><br><br>
+            7. Clone your newly forked repository with git clone <code class="highlight">https://github.com/< your username >/sysad2-12021.git</code> and go in the repository directory.
+            <img src="https://user-images.githubusercontent.com/75419236/104208705-c186c180-546b-11eb-94c0-0ea2436c9fa5.png" alt="" /><br>
+            8. Make a new branch named “activity2” using <code class="highlight">git branch activity2</code> and <code class="highlight">git checkout activity2</code> <br> <img src="https://user-images.githubusercontent.com/75419236/104208844-f135c980-546b-11eb-9ce3-3c5ae160c66e.png" alt="" />
+            9. Make a new new remote upstream with git <img src="https://user-images.githubusercontent.com/75419236/104208847-f266f680-546b-11eb-94e0-5ab3c2042175.png" alt="" />
+            10. Create your directory with your username, create a directory named “activity2” add the previous README.md file as HA2.md<br><br>
+            <strong>Commands:</strong>
+            <code text-align="left" class="highlight ind">
+              mkdir <your username>
+              mkdir activity2
+              cp <path of your README.md file> HA2.md
+            </code>
+            <img src="https://user-images.githubusercontent.com/75419236/104209195-5b4e6e80-546c-11eb-9f29-9fcbb461e76f.png" alt="" />
+            11. Add, commit and push it to your activity2 branch<br><br>
+            <strong>Commands:</strong>
+            <code text-align="left" class="highlight ind">
+              mkdir <your username>
+              mkdir activity2
+              cp <path of your README.md file> HA2.md
+            </code>
+            <img src="https://user-images.githubusercontent.com/75419236/104209878-31497c00-546d-11eb-91e4-64d39116d761.png" alt="" /><br>
+            12. Request a pull request for the master branch in <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>  and activity2 branch of your forked repository. <br><br>
+            <h2>Output:</h2>
+            <br>
+            <p align="center" class="ghost"><a href="https://github.com/jdlamzon-tip/sysad2-12021/tree/activity2/jdlamzon-tip/activity2">GitHub Page</a></p>
+            </div>
+    </div>
+    <hr>
+    <div class="footer">
+      <p align="center"><a href="https://www.facebook.com/andylamzoned/" class="fa fa-facebook"></a> <a href="https://twitter.com/andylamzoned" class="fa fa-twitter"></a> <a href="https://www.instagram.com/andylamzoned/" class="fa fa-instagram"></a> <a href="https://github.com/jdlamzon-tip" class="fa fa-github"></a></p>
+        <div class="footer-bottom">
+          <p> &copy; <a class="u-email" href="mailto:qjdalamzon@tip.edu.ph">qjdalamzon@tip.edu.ph</a> | Designed by John David Lamzon></p>
+          CPE 232-CPE31S2 - Managing Enterprise Servers
+        </div>
+    </div>
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+
+

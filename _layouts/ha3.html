@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <div class="wrapper">
+      <section>
+        <div id="title">
+          <br>
+          <h1>Managing Enterprie Servers Portfolio</h1>
+          <br>
+          <p>By: John David Lamzon</p>
+          <br>
+          <nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="midterm.html">MIDTERM</a></li>
+							<li><a href="final.html">FINALS</a></li>
+              <div class="topnav-right">
+                <a class="pads" href="about.html">ABOUT</a>
+              </div>
+					  </ul>
+          </nav>
+          <br>
+          <hr>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+        </div>
+      </section>
+          <h2 class="post-title p-name" itemprop="name headline">Hands-on Activity 3: Ansible Basics</h2>
+          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104220665-c99a2d80-547a-11eb-8112-368f5958e822.png" alt="" width="650" height="210"></p><br><br>
+            <strong>Follow this procedure:</strong>
+            <br>
+            <div class="post1">
+Setup is Alpine and Ubuntu VMs are connected via a local network, in my case
+Alpine VM, IP is 192.168.122.117 (Or Any VM that has Git installed)
+Ubuntu VM,IP is 192.168.122.125 and hostname should be ubuntu(your student number) (e.g. ubuntu-1110670)
+1. Fork the instructor repository and clone the repository.
+2. Create a new branch called "activity3" and checkout in that branch.
+3. Create a directory with your username as its name and go inside of it, and create a directory called "activity3" and go inside it.
+4. Install Ansible via apk in your Alpine VM.
+5. To check if you installed Ansible correctly check the python version it in Ansible version command would reflect python 3.
+6. First, create a configuration file named "ansible.cfg", Ansible checks per-directory thus you can have multiple configurations <br>in a system depending on your configuration file in the current directory.
+7. Next, populate the ansible.cfg file with basic information such as inventory, host verification, and your default remote user.
+8. Next, create your first inventory file with Ubuntu IP on it.
+9. Then try to connect using "ping" module via adhoc command
+10. Now use "shell" module to check the user via bash commands. (check for the user, hostname, and id)
+11. And we can use the "copy" module to create a file with a certain file with the content or copy from your local VM to your remote VM.
+12. For more modules, you can check this <a href="https://docs.ansible.com/ansible/latest/index.html">link </a>of the module index.
+13. You can also check the description of the module using ansible-doc 
+14. Also, you can group your inventory via the grouping feature of Ansible.
+15. Add commit push and create a PR.
+            </div>
+          <h2>Output:</h2>
+          <br>
+          <p align="center" class="ghost"><a href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz1.3/jdlamzon-tip">GitHub Page</a></p>
+          <div style="white-space: pre">
+          <code text-align="left" class="highlight">
+          ├── 1811
+          │   └── quiz21
+          │   └── README.md
+          └── README.md
+          </code>
+          </div>
+    </div>
+    <hr>
+    <div class="footer">
+      <p align="center"><a href="https://www.facebook.com/andylamzoned/" class="fa fa-facebook"></a> <a href="https://twitter.com/andylamzoned" class="fa fa-twitter"></a> <a href="https://www.instagram.com/andylamzoned/" class="fa fa-instagram"></a> <a href="https://github.com/jdlamzon-tip" class="fa fa-github"></a></p>
+        <div class="footer-bottom">
+          <p> &copy; <a class="u-email" href="mailto:qjdalamzon@tip.edu.ph">qjdalamzon@tip.edu.ph</a> | Designed by John David Lamzon</p>
+          CPE 232-CPE31S2 - Managing Enterprise Servers
+        </div>
+    </div>
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.Scom/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+
+
