@@ -116,6 +116,10 @@
   border: solid #DAB72E 1px;
 }
 
+.gmargin {
+	margin-right: 10px;
+}
+
 /* FOOTER */
 .footer {
 	background: #transparent;
@@ -151,11 +155,15 @@
 }
 
 .pads {
-	padding: 14px 0px;
+	padding: 14px 16px;
 }
 
 a.pads {
 	color: #fff;
+}
+
+a.pads:hover {
+	color: #ffeb9b;
 }
 
 .zoom {

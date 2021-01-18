@@ -21,8 +21,8 @@
           <br>
           <nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">PRELIM</a></li>
-							<li class="active"><a href="midterm.html">MIDTERM</a></li>
+							<li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="midterm.html">MIDTERM</a></li>
 							<li><a href="finals.html">FINALS</a></li>
               <div class="topnav-right">
                 <a class="pads" href="about.html">ABOUT</a>
@@ -34,68 +34,53 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
       </section>
-          <h2 class="post-title p-name" itemprop="name headline">Quiz 4.3: Log Monitor</h2>
-          <p class="pic"><img src="assets/images/quiz43.png" alt="" width="650" height="210"></p><br><br>
+          <h2 class="post-title p-name" itemprop="name headline">Quiz 2.3. Ansible Roles</h2>
+          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104220107-fb5ec480-5479-11eb-8ef6-dda2f6c8ac8c.png" alt="" width="650" height="210"></p><br><br>
             <p class="list">
             <strong>Follow the procedure:</strong>
             <br>
             <div class="post1">
-1. Create a directory named “quiz31” in your student number directory in <a href="https://tip.instructure.com/courses/14414/quizzes/121811">Quiz 1.3</a>
+1. Create a directory named “quiz23” in your student number directory in <a href="https://tip.instructure.com/courses/14414/quizzes/121811">Quiz 1.3</a>
 2. Create a markdown file named “README.md” in the newly created directory with the directory summary
-3. Create playbook to install Elastic Stack.
+3. Optimize <a href="https://tip.instructure.com/courses/14414/quizzes/121799">Quiz 2.2 with roles.</a>
 4. Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).
             </div>
             </p>
           </p>
           <h2>Output:</h2>
           <br>
-          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz43/1811683/quiz43">GitHub Page</a>
+          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz23/1811683/quiz23">GitHub Page</a></p>
           <div style="white-space: pre">
           <h2>Directory Summary:</h2>
           <code text-align="left" class="highlight">
 .
-├── README.md
-├── ansible.cfg
-├── elasticsearch.repo
-├── inventory
-├── playbook.yaml
-└── roles
-    ├── centos-elk
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    └── ubuntu-elk
-        ├── README.md
-        ├── defaults
-        │   └── main.yml
-        ├── files
-        ├── handlers
-        │   └── main.yml
-        ├── meta
-        │   └── main.yml
-        ├── tasks
-        │   └── main.yml
-        ├── templates
-        ├── tests
-        │   ├── inventory
-        │   └── test.yml
-        └── vars
-            └── main.yml
+├── 1811683
+│   └── quiz23
+│       ├── ansible.cfg
+│       ├── body.html
+│       ├── info.html
+│       ├── inventory
+│       ├── playbook.yaml
+│       ├── README.md
+│       └── roles
+│           └── server-installation
+│               ├── defaults
+│               │   └── main.yml
+│               ├── handlers
+│               │   └── main.yml
+│               ├── meta
+│               │   └── main.yml
+│               ├── README.md
+│               ├── tasks
+│               │   └── main.yml
+│               ├── tests
+│               │   ├── inventory
+│               │   └── test.yml
+│               └── vars
+│                   └── main.yml
+└── README.md
 
-19 directories, 21 filesd
+10 directories, 15 files
           </code>
           </div>
     </div>
