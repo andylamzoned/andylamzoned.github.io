@@ -34,59 +34,59 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
       </section>
-          <h2 class="post-title p-name" itemprop="name headline">Quiz 3.1: Managed Information Systems Services</h2>
+          <h2 class="post-title p-name" itemprop="name headline">Quiz 3.2: Common Workload Services</h2>
           <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104273923-aef7a100-54da-11eb-8045-93803965d966.png" alt="" width="650" height="210"></p><br><br>
             <p class="list">
             <strong>Follow this procedure:</strong>
             <br>
             <div class="post1">
-1. Create a directory named “quiz31” in your student number directory in <a href="https://tip.instructure.com/courses/14414/quizzes/121811">Quiz 1.3</a>
+1. Create a directory named “quiz32” in your student number directory in Quiz 1.3
 2. Create a markdown file named “README.md” in the newly created directory with the directory summary
-3. Create a playbook that installs an vsftpd server.
+3. Create a playbook to install and configure an httpd server.
 4. Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).
             </div>
             </p>
           </p>
           <h2>Output:</h2>
           <br>
-          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz31/1811683/quiz31">GitHub Page</a>
+          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz32/1811683/quiz32">GitHub Page</a></p>
           <div style="white-space: pre">
           <h2>Directory Summary:</h2>
           <code text-align="left" class="highlight">
 .
 ├── 1811683
-│   └── quiz31
+│   └── quiz32
+│       ├── httpd.yaml
 │       ├── README.md
-│       ├── roles
-│       │   ├── vsftpd-centos
-│       │   │   ├── defaults
-│       │   │   │   └── main.yml
-│       │   │   ├── handlers
-│       │   │   │   └── main.yml
-│       │   │   ├── meta
-│       │   │   │   └── main.yml
-│       │   │   ├── README.md
-│       │   │   ├── tasks
-│       │   │   │   └── main.yml
-│       │   │   ├── tests
-│       │   │   │   └── test.yml
-│       │   │   └── vars
-│       │   │       └── main.yml
-│       │   └── vsftpd-ubuntu
-│       │       ├── defaults
-│       │       │   └── main.yml
-│       │       ├── handlers
-│       │       │   └── main.yml
-│       │       ├── meta
-│       │       │   └── main.yml
-│       │       ├── README.md
-│       │       ├── tasks
-│       │       │   └── main.yml
-│       │       ├── tests
-│       │       │   └── test.yml
-│       │       └── vars
-│       │           └── main.yml
-│       └── vsftpd.yaml
+│       └── roles
+│           ├── centos-httpd
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── README.md
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           └── ubuntu-httpd
+│               ├── defaults
+│               │   └── main.yml
+│               ├── handlers
+│               │   └── main.yml
+│               ├── meta
+│               │   └── main.yml
+│               ├── README.md
+│               ├── tasks
+│               │   └── main.yml
+│               ├── tests
+│               │   └── test.yml
+│               └── vars
+│                   └── main.yml
 └── README.md
 
 17 directories, 17 files

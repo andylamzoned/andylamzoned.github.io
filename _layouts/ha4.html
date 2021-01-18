@@ -21,8 +21,8 @@
           <br>
           <nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">PRELIM</a></li>
-							<li class="active"><a href="midterm.html">MIDTERM</a></li>
+							<li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="midterm.html">MIDTERM</a></li>
 							<li><a href="finals.html">FINALS</a></li>
               <div class="topnav-right">
                 <a class="pads" href="about.html">ABOUT</a>
@@ -34,62 +34,39 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
       </section>
-          <h2 class="post-title p-name" itemprop="name headline">Quiz 3.1: Managed Information Systems Services</h2>
-          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104273923-aef7a100-54da-11eb-8045-93803965d966.png" alt="" width="650" height="210"></p><br><br>
+          <h2 class="post-title p-name" itemprop="name headline">Hands-on Activity 4: Ansible Playbooks</h2>
+          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104220735-e46ca200-547a-11eb-9f19-bb6fcf40958e.png" alt="" width="650" height="210"></p><br><br>
             <p class="list">
             <strong>Follow this procedure:</strong>
             <br>
             <div class="post1">
-1. Create a directory named “quiz31” in your student number directory in <a href="https://tip.instructure.com/courses/14414/quizzes/121811">Quiz 1.3</a>
-2. Create a markdown file named “README.md” in the newly created directory with the directory summary
-3. Create a playbook that installs an vsftpd server.
-4. Then create a Pull request and put your forked repo in the only question of this quiz (Note answer this quiz as well as create a pull request).
+1. Fork this repository <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
+2. Clone your newly forked repository.
+3. Make a new branch named "activity4" from master branch using <code class="highlight">git branch activity4</code> and<br> <code class="highlight">git checkout activity4.</code></div><br>
+        <span style="font-style: italic">Note: To Prevent Conflicts Create a directory with your username as its name and go inside of it, and create a directory called “activity4” and go inside it.</span>
+        <div class="post1">
+4. Make a new remote upstream with git remote add upstream <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
+5. Create a playbook that install java via package manager, and install boto, ansible, and openstack py packages using pip in both Ubuntu and Centos.
+6. Add,commit and push it to your activity4 branch
+7. Request a pull request for the master branch in <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a> <br>and activity4 branch of your forked repository
             </div>
             </p>
           </p>
           <h2>Output:</h2>
           <br>
-          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/quiz31/1811683/quiz31">GitHub Page</a>
+          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/activity4/jdlamzon-tip/activity4">GitHub Page</a></p>
           <div style="white-space: pre">
           <h2>Directory Summary:</h2>
           <code text-align="left" class="highlight">
 .
-├── 1811683
-│   └── quiz31
-│       ├── README.md
-│       ├── roles
-│       │   ├── vsftpd-centos
-│       │   │   ├── defaults
-│       │   │   │   └── main.yml
-│       │   │   ├── handlers
-│       │   │   │   └── main.yml
-│       │   │   ├── meta
-│       │   │   │   └── main.yml
-│       │   │   ├── README.md
-│       │   │   ├── tasks
-│       │   │   │   └── main.yml
-│       │   │   ├── tests
-│       │   │   │   └── test.yml
-│       │   │   └── vars
-│       │   │       └── main.yml
-│       │   └── vsftpd-ubuntu
-│       │       ├── defaults
-│       │       │   └── main.yml
-│       │       ├── handlers
-│       │       │   └── main.yml
-│       │       ├── meta
-│       │       │   └── main.yml
-│       │       ├── README.md
-│       │       ├── tasks
-│       │       │   └── main.yml
-│       │       ├── tests
-│       │       │   └── test.yml
-│       │       └── vars
-│       │           └── main.yml
-│       └── vsftpd.yaml
+├── jdlamzon-tip
+│   └── activity4
+│       ├── ansible.cfg
+│       ├── inventory
+│       └── playbook.yaml
 └── README.md
 
-17 directories, 17 files
+2 directories, 4 files
           </code>
           </div>
     </div>

@@ -15,14 +15,14 @@
       <section>
         <div id="title">
           <br>
-          <h1>Managing Enterprie Servers Portfolio</h1>
+          <h1>Managing Enterprise Servers Portfolio</h1>
           <br>
           <p>By: John David Lamzon</p>
           <br>
           <nav id="nav">
 						<ul class="links">
-						  <li><a href="index.html">PRELIM</a></li>
-							<li class="active"><a href="midterm.html">MIDTERM</a></li>
+							<li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="midterm.html">MIDTERM</a></li>
 							<li><a href="finals.html">FINALS</a></li>
               <div class="topnav-right">
                 <a class="pads" href="about.html">ABOUT</a>
@@ -34,35 +34,38 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
       </section>
-          <h2 class="post-title p-name" itemprop="name headline">Hands-on Activity 6: Install, configure, and manage enterprise services via Ansibles</h2>
-          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104272123-6ee2ef00-54d7-11eb-87d3-520d21457ebb.png" alt="" width="650" height="210"></p><br><br>
+          <h2 class="post-title p-name" itemprop="name headline">Hands-on Activity 4: Ansible Playbooks</h2>
+          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104220735-e46ca200-547a-11eb-9f19-bb6fcf40958e.png" alt="" width="650" height="210"></p><br><br>
+            <p class="list">
             <strong>Follow this procedure:</strong>
             <br>
-            <p class="post1">
+            <div class="post1">
 1. Fork this repository <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
-2. Clone your newly forked repository. 
-3. Make a new branch named "activity6" from master branch using git branch activity6 and git checkout activity6
-4. Make a new new remote upstream with git remote add upstream <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
-5. Create a playbook that installs dhcpd, bind9, vsftpd, samba, httpd, mariadb in both Ubuntu and Centos (use Roles to optimize the playbook)
-6. Create different plays in installing per service and identify it as a group in Inventory file.
-7. add,commit and push it to your activity6 branch
-8. Request a pull request for the master branch in <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a> and activity6 branch of your forked repository.
+2. Clone your newly forked repository.
+3. Make a new branch named "activity4" from master branch using <code class="highlight">git branch activity5</code> and<br> <code class="highlight">git checkout activity5.</code></div><br>
+        <span style="font-style: italic">Note: To Prevent Conflicts Create a directory with your username as its name and go inside of it, and create a directory called “activity4” and go inside it.</span>
+        <div class="post1">
+4. Make a new remote upstream with git remote add upstream <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
+5. Optimize the playbook in <a href="https://tip.instructure.com/courses/14414/assignments/292855d">Hands-on Activity 4: Ansible Playbooks</a>
+6. Add,commit and push it to your activity5 branch
+7. Request a pull request for the master branch in <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a> <br>and activity5 branch of your forked repository
+            </div>
             </p>
+          </p>
           <h2>Output:</h2>
           <br>
-          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/activity6/jdlamzon-tip/activity6">GitHub Page</a>
+          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/activity5/jdlamzon-tip/activity5">GitHub Page</a></p>
           <div style="white-space: pre">
           <h2>Directory Summary:</h2>
           <code text-align="left" class="highlight">
 .
 ├── jdlamzon-tip
-│   └── activity6
+│   └── activity5
 │       ├── ansible.cfg
 │       ├── inventory
 │       ├── playbook.yaml
-│       ├── README.md
 │       └── roles
-│           ├── centos-installs
+│           ├── centos-install
 │           │   ├── defaults
 │           │   │   └── main.yml
 │           │   ├── handlers
@@ -77,7 +80,7 @@
 │           │   │   └── test.yml
 │           │   └── vars
 │           │       └── main.yml
-│           └── ubuntu-installs
+│           └── ubuntu-install
 │               ├── defaults
 │               │   └── main.yml
 │               ├── handlers
@@ -94,7 +97,7 @@
 │                   └── main.yml
 └── README.md
 
-17 directories, 21 files
+17 directories, 20 files
           </code>
           </div>
     </div>

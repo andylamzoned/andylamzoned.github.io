@@ -21,8 +21,8 @@
           <br>
           <nav id="nav">
 						<ul class="links">
-						  <li><a href="index.html">PRELIM</a></li>
-							<li class="active"><a href="midterm.html">MIDTERM</a></li>
+						  <li class="active"><a href="index.html">PRELIM</a></li>
+							<li><a href="midterm.html">MIDTERM</a></li>
 							<li><a href="finals.html">FINALS</a></li>
               <div class="topnav-right">
                 <a class="pads" href="about.html">ABOUT</a>
@@ -34,35 +34,44 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
       </section>
-          <h2 class="post-title p-name" itemprop="name headline">Hands-on Activity 6: Install, configure, and manage enterprise services via Ansibles</h2>
-          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104272123-6ee2ef00-54d7-11eb-87d3-520d21457ebb.png" alt="" width="650" height="210"></p><br><br>
+          <h2 class="post-title p-name" itemprop="name headline">Hands-on Prelim Exam</h2>
+          <p class="pic"><img src="https://user-images.githubusercontent.com/75419236/104221105-6ceb4280-547b-11eb-977f-6659c1b847fe.png" alt="" width="650" height="210"></p><br><br>
             <strong>Follow this procedure:</strong>
             <br>
             <p class="post1">
 1. Fork this repository <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
-2. Clone your newly forked repository. 
-3. Make a new branch named "activity6" from master branch using git branch activity6 and git checkout activity6
-4. Make a new new remote upstream with git remote add upstream <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a>
-5. Create a playbook that installs dhcpd, bind9, vsftpd, samba, httpd, mariadb in both Ubuntu and Centos (use Roles to optimize the playbook)
-6. Create different plays in installing per service and identify it as a group in Inventory file.
-7. add,commit and push it to your activity6 branch
-8. Request a pull request for the master branch in <a href="https://github.com/ajcanlas-tip/sysad2-12021.git">https://github.com/ajcanlas-tip/sysad2-12021.git</a> and activity6 branch of your forked repository.
+2. Clone your new repository in your VM <code class="highlight">https://github.com/< your username >/sysad2-12021.git </code>
+3. Create a branch named "prelim-exam" and checkout in that branch.
+4. Create an Ansible playbook that does the following with an input of a config.yaml file
+        Role 1 (python):
+          1. Installs the latest python3 and pip3
+          2. use pip3 as default pip 
+          3. use python3 as default python 
+        Role 2 (Java)
+          1. Install Java open-jdk
+        Role 3 (Change motd)
+          1. Create Motd containing the text defined by a variable defined in config.yaml file and if there is no 
+             variable input the default motd is "Ansible Managed node by (your user name)"
+        Role 4 (Create user)
+          1. Create a user with a variable defined in config.yaml
+5. Push and commit your prelim-exam branch in the VM (no need for ansible.cfg and inventory upon pushing)
+6. Request a pull request from that branch in GitHub
+7. For your prelim exam to be counted, please paste your repository link as an answer in this exam..
             </p>
           <h2>Output:</h2>
           <br>
-          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/activity6/jdlamzon-tip/activity6">GitHub Page</a>
+          <a class="ghost" href="https://github.com/jdlamzon-tip/sysad2-12021/tree/prelim-exam/1811683/prelim-exam">GitHub Page</a>
           <div style="white-space: pre">
           <h2>Directory Summary:</h2>
           <code text-align="left" class="highlight">
 .
-├── jdlamzon-tip
-│   └── activity6
-│       ├── ansible.cfg
-│       ├── inventory
+├── 1811683
+│   └── prelim-exam
+│       ├── config.yaml
 │       ├── playbook.yaml
 │       ├── README.md
 │       └── roles
-│           ├── centos-installs
+│           ├── change-motd
 │           │   ├── defaults
 │           │   │   └── main.yml
 │           │   ├── handlers
@@ -73,11 +82,38 @@
 │           │   ├── tasks
 │           │   │   └── main.yml
 │           │   ├── tests
-│           │   │   ├── inventory
 │           │   │   └── test.yml
 │           │   └── vars
 │           │       └── main.yml
-│           └── ubuntu-installs
+│           ├── create-user
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── README.md
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           ├── java
+│           │   ├── defaults
+│           │   │   └── main.yml
+│           │   ├── handlers
+│           │   │   └── main.yml
+│           │   ├── meta
+│           │   │   └── main.yml
+│           │   ├── README.md
+│           │   ├── tasks
+│           │   │   └── main.yml
+│           │   ├── tests
+│           │   │   └── test.yml
+│           │   └── vars
+│           │       └── main.yml
+│           └── python
 │               ├── defaults
 │               │   └── main.yml
 │               ├── handlers
@@ -88,13 +124,12 @@
 │               ├── tasks
 │               │   └── main.yml
 │               ├── tests
-│               │   ├── inventory
 │               │   └── test.yml
 │               └── vars
 │                   └── main.yml
 └── README.md
 
-17 directories, 21 files
+31 directories, 32 files
           </code>
           </div>
     </div>
